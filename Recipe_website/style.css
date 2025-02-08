@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vh;
+    overflow-x: none;
+}
+.navcontainer{
+    width: 100vw;
+    background-color: rgba(87, 87, 161, 0.71);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navList{
+    margin-left: 15px;
+    margin-right: 15px; 
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navLogo{
+    font-size: 3rem;
+}
