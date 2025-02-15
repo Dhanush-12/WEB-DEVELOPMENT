@@ -10,21 +10,33 @@
 }
 .navcontainer{
     width: 100vw;
-    background-color: rgba(87, 87, 161, 0.71);
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
     min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+nav{
+    width: 100%;
+}
 #navList{
     margin-left: 15px;
     margin-right: 15px; 
     list-style: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #navLogo{
-    font-size: 3rem;
+    font-size: 2.8rem;
+    color:rgb(251, 255, 255)
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navItems{
+    display: flex;
+    gap: 25px;
 }
