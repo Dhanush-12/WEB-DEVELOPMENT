@@ -5,12 +5,15 @@
 }
 .container{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     overflow-x: none;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg,#e2e5e8 0%, #ffffff 100%);
 }
 .navcontainer{
     width: 100vw;
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background-image: linear-gradient(160deg, #3F2B96 0%, #80D0C7 100%);
     min-height: 80px;
     display: flex;
     justify-content: center;
@@ -39,4 +42,23 @@ a{
 #navItems{
     display: flex;
     gap: 25px;
+}
+.footerBox{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background-image: linear-gradient(160deg, #3F2B96 0%, #80D0C7 100%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+
+}
+.footerBox p{
+    color:azure;
+    font-size: 1.7rem;
+}
+.contentBox{
+    width: 70%;
+    margin:auto;
+    border: 2px solid black;
+    background-color: white; 
 }
