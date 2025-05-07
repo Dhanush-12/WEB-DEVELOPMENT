@@ -19,6 +19,8 @@ p1Button.addEventListener("click", function (){
             isGameOver = true;
             p1Display.classList.add('has-text-success');
             p2Display.classList.add('has-text-danger');
+            p1Button.disabled = true;
+            p2Button.disabled = true;
         }
         p1Display.textContent = p1Score;
     }
